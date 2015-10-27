@@ -42,34 +42,18 @@ namespace winform {
 	private: System::Windows::Forms::Button^  number2;
 	private: System::Windows::Forms::Button^  number3;
 	private: System::Windows::Forms::Button^  number4;
-	private: System::Windows::Forms::Button^  number8;
-
-
-
-
-
-	private: System::Windows::Forms::Button^  number7;
-
-	private: System::Windows::Forms::Button^  number6;
-
 	private: System::Windows::Forms::Button^  number5;
-	private: System::Windows::Forms::Button^  DivideBy;
-
-
-	private: System::Windows::Forms::Button^  clear;
-
-	private: System::Windows::Forms::Button^  number0;
-
+	private: System::Windows::Forms::Button^  number6;
+	private: System::Windows::Forms::Button^  number8;
+	private: System::Windows::Forms::Button^  number7;
 	private: System::Windows::Forms::Button^  number9;
+	private: System::Windows::Forms::Button^  number0;
+	private: System::Windows::Forms::Button^  DivideBy;
+	private: System::Windows::Forms::Button^  clear;
 	private: System::Windows::Forms::Button^  EqualsTo;
-
-
 	private: System::Windows::Forms::Button^  Add;
-
 	private: System::Windows::Forms::Button^  Multiply;
 	private: System::Windows::Forms::Button^  Subtract;
-
-
 
 	protected:
 
@@ -487,6 +471,7 @@ private: System::Void Multiply_Click_1(System::Object^  sender, System::EventArg
 }
 private: System::Void EqualsTo_Click(System::Object^  sender, System::EventArgs^  e) {
 	secondnum = Convert::ToInt32(CalcDisplay->Text);
+
 
 	switch (operation)
 	{
